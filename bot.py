@@ -72,7 +72,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/@techytel")
+                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/rampageraja")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -80,8 +80,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TechyTel"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/TechyTelSupport")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton(" Support Group", url="https://t.me/KS_Team_Live")
                     ]
                 ]
             )
@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/TechyTelSupport)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/KS_Team_Live)",
                                      disable_web_page_preview=True)
             return
 
@@ -317,7 +317,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/evertel/Adv-File-Store-Bot")
+                                             url="https://t.me/theamanchaudhary")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -335,7 +335,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/Evertel/Adv-File-Store-Bot")
+                                             url="https://t.me/theamanchaudhary")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -352,7 +352,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/TechyTel")
+                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/rampageraja")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -360,8 +360,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TechyTelSupport"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TechyTel")
+                        InlineKeyboardButton("Support Group", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
                     ]
                 ]
             )
@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TechyTel).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/KS_Team_Live).",
                         disable_web_page_preview=True
                     )
                     return
@@ -399,7 +399,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TechyTelSupport).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/KS_Team_Live).",
                     disable_web_page_preview=True
                 )
                 return
@@ -409,8 +409,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TechyTelSupport"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TechyTel")
+                        InlineKeyboardButton("Support Group", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
