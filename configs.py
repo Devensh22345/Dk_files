@@ -31,7 +31,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Owner:** [Sasuke](https://t.me/KING_SOUROB) 
+├🔸 **Owner:** [King Sourab](https://t.me/KING_SOUROB) 
 │
 ├🔹 **Bot Support:** [Support Group](https://t.me/KS_Team_Live)
 │
