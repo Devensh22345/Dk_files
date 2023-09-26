@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
-	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	API_ID = int(os.environ.get("API_ID", "27402720"))
+	API_HASH = os.environ.get("API_HASH", "38f0682dce493e07863bc6783016e98d")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6340952541:AAHgcJHFbwxs7YChge9gct8X5obgNqmYd8c")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "KS_Private_File_Robot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001887512620"))
+	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', 'sharelinks.in')
+	SHORTLINK_API = os.environ.get('SHORTLINK_API', '0e5f2972d232c6d9dbe4bfbd06654367866d1c1e')
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1150044195 5674333293"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://theamanchaudhary:updatesbyaman@cluster0.rlgbj7c.mongodb.net/?retryWrites=true&w=majority")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001967804966")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001716327321")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -31,16 +31,16 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔹 **Hosted On:** [Heroku](https://heroku.com)
 │
-├🔸 **Owner:** [Sasuke](https://t.me/sasukex1) 
+├🔸 **Owner:** [Sasuke](https://t.me/KING_SOUROB) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/Techytelsupport)
+├🔹 **Bot Support:** [Support Group](https://t.me/KS_Team_Live)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/Techytel)
+├🔸 **Bot Updates:** [Bots Channel](https://t.me/KS_Team_Live)
 │
 ╰──────[ 😎 ]───────────⍟
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Evertel](https://github.com/evertel)
+🧑🏻‍💻 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿:** [Aman Chaudhary](https://t.me/theamanchaudhary)
  
  I Am Super Noob Developer. Just Support My Hard Work.
 
