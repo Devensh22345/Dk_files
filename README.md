@@ -3,10 +3,10 @@
 <p align="center">
   <img src="https://telegra.ph/file/a8b218503819afb6f9b83.jpg"><br>
 
-  <a href="https://t.me/techytel">
+  <a href="https://t.me/updatesbyaman">
     &nbsp;<img src="https://img.shields.io/badge/Techy%20Tel-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
   </a>
-  <a href="https://t.me/techytelsupport">
+  <a href="https://t.me/updatesbyaman">
     &nbsp;<img src="https://img.shields.io/badge/Techy%20Tel-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
   </a>
   
@@ -65,9 +65,9 @@ banned_users - Get All Banned Users [Owner Only]
 ```
 
 ### 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩:
-<a href="https://t.me/Techytelsupport"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-green.svg?logo=telegram"></a>
+<a href="https://t.me/updatesbyaman"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-green.svg?logo=telegram"></a>
 ### 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:
-<a href="https://t.me/TechyTel"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-yellow.svg?logo=telegram"></a>
+<a href="https://t.me/updatesbyaman"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-yellow.svg?logo=telegram"></a>
 
 
 # ♥︎ Thanks For Your Support & Love ♥︎
