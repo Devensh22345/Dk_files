@@ -80,7 +80,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                         InlineKeyboardButton(" Support Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ]
                 ]
@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Channel](https://t.me/KS_Team_Live)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Channel](https://t.me/KS_Korean_Drama_Hindi)",
                                      disable_web_page_preview=True)
             return
 
@@ -361,7 +361,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     ],
                     [
                         InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ]
                 ]
             )
@@ -399,7 +399,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/KS_Team_Live).",
+                    text="Something went Wrong. Contact my [Owner](https://t.me/KING_SOUROB).",
                     disable_web_page_preview=True
                 )
                 return
@@ -410,7 +410,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
