@@ -33,7 +33,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔸 **Owner:** [King Sourab](https://t.me/KING_SOUROB) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/KS_Team_Live)
+├🔹 **Bot Support:** [Support Group](https://t.me/KS_Korean_Drama_Hindi)
 │
 ├🔸 **Bot Updates:** [Bots Channel](https://t.me/KS_Team_Live)
 │
