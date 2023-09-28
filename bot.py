@@ -81,7 +81,7 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/KS_Team_Live")
+                        InlineKeyboardButton(" Support Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ]
                 ]
             )
@@ -122,7 +122,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/KS_Team_Live)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Channel](https://t.me/KS_Team_Live)",
                                      disable_web_page_preview=True)
             return
 
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
                     ]
                 ]
@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/KS_Team_Live).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Channel](https://t.me/KS_Korean_Drama_Hindi).",
                         disable_web_page_preview=True
                     )
                     return
@@ -409,7 +409,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/KS_Team_Live"),
+                        InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live")
                     ],
                     [
