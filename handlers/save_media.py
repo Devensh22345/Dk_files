@@ -72,7 +72,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live"),
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                   InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi")]]
             ),
             disable_web_page_preview=True
@@ -114,7 +114,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             reply_markup=InlineKeyboardMarkup(
                [[InlineKeyboardButton("Original Link", url=share_link),
                   InlineKeyboardButton("Short Link", url=short_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Team_Live"),
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                   InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi")]]
             ),
             disable_web_page_preview=True
