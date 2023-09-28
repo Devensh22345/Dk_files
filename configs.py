@@ -5,7 +5,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "38f0682dce493e07863bc6783016e98d")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6416751021:AAGe6ate0K6ElNU4VYoMRSImUPw4xv5qF0E")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "BdFileStorageBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001887512620"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001868162542"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL', 'sharelinks.in')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API', '0e5f2972d232c6d9dbe4bfbd06654367866d1c1e')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5674333293"))
