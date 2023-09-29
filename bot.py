@@ -72,16 +72,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/rampageraja")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
-                        InlineKeyboardButton(" Support Channel", url="https://t.me/KS_Korean_Drama_Hindi")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ]
                 ]
             )
@@ -352,15 +343,6 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Official YouTube", url="https://youtube.com/rampageraja")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
                     ]
                 ]
@@ -409,12 +391,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Channel", url="https://t.me/KS_Korean_Drama_Hindi"),
                         InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                     ]
                 ]
             )
