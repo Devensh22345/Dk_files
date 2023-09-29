@@ -72,7 +72,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Bots")
                     ]
                 ]
             )
@@ -343,7 +343,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Bots")
                     ]
                 ]
             )
@@ -391,7 +391,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Korean_Drama_Hindi")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/KS_Bots")
                     ]
                 ]
             )
