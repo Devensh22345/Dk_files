@@ -48,11 +48,12 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
-How to Use Bot & it's Benefits??
+This Is Premium FileStore Bot.
 
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
+Send me any file I will give you a Permanent Sharable Link. 
+And Your Files Auto Delete in 15 Minute
 
-⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
+⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I 
 
-❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
+❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban.
 """
