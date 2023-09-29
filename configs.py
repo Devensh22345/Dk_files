@@ -46,9 +46,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 """
 	HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
-
-This Is Premium FileStore Bot.
+Hello, [{}](tg://user?id={})\n\nThis is Premium **FileStore Bot**.
 
 Send me any file I will give you a Permanent Sharable Link. 
 And Your Files Auto Delete in 15 Minute
