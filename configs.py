@@ -10,7 +10,7 @@ class Config(object):
 	SHORTLINK_API = os.environ.get('SHORTLINK_API', '0e5f2972d232c6d9dbe4bfbd06654367866d1c1e')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1150044195"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://theamanchaudhary:updatesbyaman@cluster0.rlgbj7c.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001497086126")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001716327321")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -49,7 +49,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 Hello, [{}](tg://user?id={})\n\nThis is Premium **FileStore Bot**.
 
 Send me any file I will give you a Permanent Sharable Link. 
-And Your Files Auto Delete in 15 Minute
+And Your Files Auto Delete in 30 Minute
 
 ⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I 
 
